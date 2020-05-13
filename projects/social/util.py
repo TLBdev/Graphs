@@ -25,9 +25,4 @@ class Stack():
             return None
     def size(self):
         return len(self.stack)
-arr = []
-x = Stack()
-for i in range(5):
-    arr.append(Stack())
-x.push('dog')
-print(x.stack)
+
